@@ -1,6 +1,9 @@
 FakeWeb
 =======
 
+* Author: geoff.jones@cyberis.co.uk
+* Copyright: Cyberis Limited 2013
+* License: GPLv3 (See LICENSE)
 
 Very small implementation of fake web and DNS servers, written in Perl.
 
@@ -13,8 +16,8 @@ The idea is simple, run both scripts/programs [as administrator/root] on the iso
 Dependencies
 ------------
 Perl, and nothing much else:
-```
-Use Term::ANSIColor;
+```perl
+use Term::ANSIColor;
 use IO::Socket;
 ```
 FakeDNS also requires:
